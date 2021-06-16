@@ -3,7 +3,9 @@
 int main(){
     int x;
     int y;
-
+    
+    /// realiza soma de 2 inteiros
+    
     printf("Digite o valor de x: ");
     scanf("%i",&x);
     printf("Digite o valor de y: ");
