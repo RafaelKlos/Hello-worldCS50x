@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+////bang in the face
+
+int main(){
+    int a = 100;
+    while(a>0){
+    fflush(stdout);
+    printf("Fire in the hole!!!\nAperte Enter para saber o resultado");
+    a--;
+    getchar();
+    printf("Bang bateu na cara ---------- HP: %i\n",a);
+    };
+return 0;
+};
