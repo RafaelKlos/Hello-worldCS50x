@@ -1,0 +1,28 @@
+#include <stdio.h>
+
+/////// recebe n1 povas de n2 alunos e as mostra
+int main(){
+
+
+    int a, b;
+    int c, i;
+    printf("digite a quantidade de alunos: ");
+    scanf("%d",&a);
+    printf("quantidade de provas: ");
+    scanf("%d",&b);
+    int s[a][b];
+    float medias =0;
+        for(c = 0; c<a; c++){
+            for( i = 0; i < b ; i++){
+            printf("digite a nota da prova %d do %d aluno: ",i+1,c+1);
+            scanf("%d",&s[c][i]);
+            }
+        }
+        for(c = 0; c<a; c++){
+                printf("\nAluno %d - ",c+1);
+            for( i = 0; i < b ; i++){
+            printf("nota  %d: %d ",i+1,s[c][i]);
+            }
+        }
+return 0;
+}
